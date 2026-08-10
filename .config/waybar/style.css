@@ -1,0 +1,72 @@
+@import url("file:///home/kitty/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: transparent;
+    color: @foreground;
+}
+
+#workspaces,
+#clock,
+#cpu,
+#custom-processes,
+#memory,
+#network,
+#pulseaudio {
+    background: alpha(@background, 0.85);
+    border-radius: 14px;
+    padding: 5px 15px;
+    margin: 6px 4px;
+}
+
+#workspaces {
+    padding: 5px 8px;
+}
+
+#workspaces button {
+    padding: 4px 10px;
+    margin: 0 2px;
+    border-radius: 10px;
+    color: @foreground;
+    background: transparent;
+    border: none;
+}
+
+#workspaces button.active {
+    background: @color4;
+    color: @background;
+}
+
+#workspaces button:hover {
+    background: @color8;
+    color: @foreground;
+}
+
+#clock {
+    color: @color5;
+}
+
+#cpu {
+    color: @color1;
+}
+
+#custom-processes {
+    color: @color3;
+}
+
+#memory {
+    color: @color2;
+}
+
+#network {
+    color: @color4;
+}
+
+#pulseaudio {
+    color: @color6;
+}
