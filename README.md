@@ -1,5 +1,10 @@
 # dotfiles-arch
-a place i put my shitty dotfiles
-## there is **TWO** reasons this place will be used
-1. Somebody **FOR SOME FUCKING REASON** asks me for my shitty dotfiles
-2. I fucked up my kernel really bad...
+
+my shitty shitty dotfiles for arch using wayland...
+
+## Purpose
+
+This repository serves two specific functions:
+* **Sharing**: Providing configuration files if someone requests them!
+* **Backup**: Restoring my environment after a really bad fuck up or kernel failure...
+
