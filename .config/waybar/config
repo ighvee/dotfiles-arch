@@ -1,0 +1,68 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 14,
+    "margin": "0px 4px",
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "cpu",
+        "custom/processes",
+        "memory",
+        "network",
+        "pulseaudio"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "all-outputs": false,
+        "sort-by-number": true
+    },
+
+    "clock": {
+        "format": "󰥔 {:%I:%M %p}",
+        "tooltip-format": "{:%A, %B %d, %Y}"
+    },
+
+    "cpu": {
+        "format": "󰍛 {usage}%",
+        "tooltip": true
+    },
+
+    "custom/processes": {
+        "exec": "ps -e --no-headers | wc -l",
+        "interval": 5,
+        "format": "󰒓 {}"
+    },
+
+    "memory": {
+        "format": "󰘚 {percentage}%",
+        "tooltip": true
+    },
+
+    "network": {
+        "format-wifi": "󰤨",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰖁 Muted",
+        "format-icons": {
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "tooltip-format": "{desc}"
+    }
+}
