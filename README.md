@@ -1,4 +1,4 @@
-[![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md) ![TransRightsAreHumanRights](https://pride-badges.pony.workers.dev/static/v1?label=TransRightsAreHumanRights&stripeWidth=6&stripeColors=5BCEFA,F5A9B8,FFFFFF,F5A9B8,5BCEFA)
+[![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md) ![#TransRightsAreHumanRights](https://pride-badges.pony.workers.dev/static/v1?label=TransRightsAreHumanRights&stripeWidth=6&stripeColors=5BCEFA,F5A9B8,FFFFFF,F5A9B8,5BCEFA)
 
 # dotfiles-arch
 
