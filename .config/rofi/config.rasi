@@ -1,0 +1,143 @@
+configuration {
+    run,drun {
+        fallback-icon: "application-x-addon";
+    }
+    show-icons: true;
+}
+
+* {
+    darkbg: #111010ed;
+    lightbg: #171616ed;
+    tcolor: #8C897C;
+    font: "JetBrains Mono 12";
+}
+
+window {
+    width: 25%;
+    location: center;
+    anchor: center;
+
+    border-radius: 8px;
+    background-color: @darkbg;
+    text-color: @tcolor;
+    transparency: "screenshot";
+
+    border: 1px;
+    border-color: @lightbg;
+}
+
+entry {
+    placeholder: "";
+    text-color: @tcolor;
+    font: "JetBrains Mono 12";
+    blink: true;
+    padding: 8px 10px;
+}
+
+textbox-prompt-colon {
+    enabled: false;
+}
+
+prompt {
+    enabled: false;
+}
+
+message {
+    content: "";
+    border: 0px;
+    text-color: red;
+    font: "Open-Sans Thin 10";
+}
+
+textbox {
+    text-color: inherit;
+    font: inherit;
+}
+
+listview {
+    spacing: 2px;
+    lines: 4;
+    fixed-height: false;
+    border: 0px;
+    dynamic: true;
+    require-input: true;
+}
+
+element {
+    border-radius: 4px;
+    children: [element-icon, element-text];
+    padding: 2px;
+}
+
+element.normal.normal {
+    background-color: transparent;
+    text-color: @tcolor;
+}
+
+element.normal.urgent {
+    background-color: transparent;
+    text-color: @tcolor;
+}
+
+element.normal.active {
+    background-color: transparent;
+    text-color: @tcolor;
+}
+
+element.selected.normal {
+    background-color: @lightbg;
+    text-color: @tcolor;
+}
+
+element.selected.urgent {
+    background-color: @lightbg;
+    text-color: @tcolor;
+}
+
+element.selected.active {
+    background-color: @lightbg;
+    text-color: @tcolor;
+}
+
+element.alternate.normal {
+    background-color: transparent;
+    text-color: @tcolor;
+}
+
+element.alternate.urgent {
+    background-color: transparent;
+    text-color: @tcolor;
+}
+
+element.alternate.active {
+    background-color: transparent;
+    text-color: @tcolor;
+}
+
+element-text {
+    text-color: inherit;
+    highlight: None;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    enabled: true;
+    size: 30px;
+    padding: 5px 8px;
+}
+
+scrollbar {
+    handle-color: @lightbg;
+}
+
+inputbar {
+    children: [entry, case-indicator, icon-search];
+}
+
+icon-search {
+    expand: false;
+    filename: "searchicon_b3.svg";
+    size: 22px;
+    padding: 8px 10px;
+    vertical-align: 0.5;
+}
