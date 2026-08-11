@@ -1,4 +1,4 @@
-[![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md) ![#TransRightsAreHumanRights](https://pride-badges.pony.workers.dev/static/v1?label=TransRightsAreHumanRights&stripeWidth=6&stripeColors=5BCEFA,F5A9B8,FFFFFF,F5A9B8,5BCEFA)
+[![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md) ![TransRightsAreHumanRights](https://pride-badges.pony.workers.dev/static/v1?label=TransRightsAreHumanRights&stripeWidth=6&stripeColors=5BCEFA,F5A9B8,FFFFFF,F5A9B8,5BCEFA) ![Arch Linux](https://img.shields.io/badge/OS-Arch_Linux-1793D1?logo=archlinux&logoColor=white) ![Hyprland](https://img.shields.io/badge/WM-Hyprland-00AEEF?logo=hyprland&logoColor=white)
 
 # dotfiles-arch
 
