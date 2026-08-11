@@ -6,8 +6,8 @@ My personal Arch Linux dotfiles and configuration files for my desktop environme
 
 This repository serves two primary purposes:
 
-* **Sharing** — Providing my configuration files for anyone who wants to use or reference them.
-* **Backup** — Allowing me to quickly restore my environment after a major system failure, configuration issue, or kernel-related problem.
+* **Sharing** : Providing my configuration files for anyone who wants to use or reference them.
+* **Backup** : Allowing me to quickly restore my environment after a major system failure, configuration issue, or kernel-related problem.
 
 ## Important Notes
 
