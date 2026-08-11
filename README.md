@@ -1,4 +1,4 @@
-[![Free Palestine](https://vercel.app)](https://www.pcrf.net)
+[![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md)
 
 # dotfiles-arch
 
