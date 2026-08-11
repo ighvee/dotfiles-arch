@@ -28,6 +28,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("waybar")
     hl.exec_cmd("firefox")
     hl.exec_cmd("hyprpaper")
+    hl.exec_cmd("nvibrant 1032")
 end)
 
 -------------------------------
@@ -115,9 +116,9 @@ hl.config({
 ---- CUSTOM WINDOW RULES ----
 -----------------------------
   
-hl.window_rule({ match = { class = "codium" }, opacity = 1 })
-hl.window_rule({ match = { class = "vesktop" }, opacity = 1 })
-hl.window_rule({ match = { class = "Thunar" }, opacity = 1 })
+hl.window_rule({ match = { class = "codium" }, opacity = 0.90 })
+hl.window_rule({ match = { class = "vesktop" }, opacity = 0.95 })
+hl.window_rule({ match = { class = "thunar" }, opacity = 0.95 })
 
 --------------------
 ---- ANIMATIONS ----
