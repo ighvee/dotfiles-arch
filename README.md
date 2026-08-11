@@ -1,3 +1,5 @@
+[![Free Palestine](https://vercel.app)](https://www.pcrf.net)
+
 # dotfiles-arch
 
 My personal Arch Linux dotfiles and configuration files for my desktop environment.
